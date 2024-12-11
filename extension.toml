@@ -1,0 +1,11 @@
+id = "yara"
+name = "Yara"
+version = "0.0.1"
+schema_version = 1
+authors = ["egibs <evan@egibs.xyz>"]
+description = "Yara syntax highlighting for Zed."
+repository = "https://github.com/egibs/yara-zed"
+
+[grammars.yara]
+repository = "https://github.com/egibs/tree-sitter-yara.git"
+commit = "ade4c74fdef17549555694c42621eeac9eaba0f8"
