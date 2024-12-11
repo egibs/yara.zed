@@ -28,12 +28,11 @@
   "in"
   "all"
   "any"
+  "none"
   "them"
+  "filesize"
+  "entrypoint"
 ] @keyword.operator
-
-; Built-in identifiers
-(filesize) @function.builtin
-(entrypoint) @function.builtin
 
 ; String modifiers
 [
@@ -48,11 +47,10 @@
 
 ; Rule names
 (rule_definition
-  name: (identifier) @function)
+  name: (identifier) @module)
 
 ; Tags
-(tag_list
-  [(identifier) (tag)] @tag)
+((tag) @tag)
 
 ; Meta definitions
 (meta_definition
