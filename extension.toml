@@ -1,6 +1,6 @@
 id = "yara"
 name = "Yara"
-version = "0.0.2"
+version = "0.0.3"
 schema_version = 1
 authors = ["egibs <evan@egibs.xyz>"]
 description = "Yara syntax highlighting for Zed."
