@@ -4,7 +4,7 @@ version = "0.0.2"
 schema_version = 1
 authors = ["egibs <evan@egibs.xyz>"]
 description = "Yara syntax highlighting for Zed."
-repository = "https://github.com/egibs/yara-zed"
+repository = "https://github.com/egibs/yara.zed"
 
 [grammars.yara]
 repository = "https://github.com/egibs/tree-sitter-yara.git"
