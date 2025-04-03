@@ -1,11 +1,15 @@
 id = "yara"
 name = "Yara"
-version = "0.0.3"
+version = "0.0.4"
 schema_version = 1
-authors = ["egibs <evan@egibs.xyz>"]
+authors = ["egibs <evan@egibs.xyz>", "Joakim Kennedy <joakim@intezer.com>"]
 description = "Yara syntax highlighting for Zed."
 repository = "https://github.com/egibs/yara.zed"
 
 [grammars.yara]
 repository = "https://github.com/egibs/tree-sitter-yara.git"
 commit = "eb3ede203275c38000177f72ec0f9965312806ef"
+
+[language_servers.yls]
+name = "yls"
+languages = ["Yara"]
