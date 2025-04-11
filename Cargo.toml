@@ -1,0 +1,11 @@
+[package]
+name = "yara-zed"
+version = "0.0.4"
+edition = "2021"
+
+[lib]
+path = "src/yls.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.3.0"
